@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+    <fields name="params">
+        <fieldset addfieldpath="/administrator/components/com_fabrik/models/fields" name="plg-element-change_value_button" label="COM_FABRIK_OPTIONS">
+            <field name="cvb_value"
+                   label="PLG_FABRIK_ELEMENT_CHANGE_VALUE_BUTTON_VALUE_LABEL"
+                   description="PLG_FABRIK_ELEMENT_CHANGE_VALUE_BUTTON_VALUE_DESC"
+                   type="field"
+            />
+        </fieldset>
+
+        <fieldset addfieldpath="/administrator/components/com_fabrik/models/fields" name="plg-element-change_value_button-button" label="PLG_FABRIK_ELEMENT_CHANGE_VALUE_BUTTON_BUTTON">
+            <field name="cvb_button_label"
+                   label="PLG_FABRIK_ELEMENT_CHANGE_VALUE_BUTTON_BUTTON_LABEL"
+                   type="text"
+            />
+            <field name="cvb_button_style"
+                   label="PLG_FABRIK_ELEMENT_CHANGE_VALUE_BUTTON_BUTTON_STYLE"
+                   type="list">
+                <option value="btn-default">Default Button</option>
+                <option value="btn-primary">Primary Button</option>
+                <option value="btn-danger">Danger Button</option>
+                <option value="btn-success">Success Button</option>
+                <option value="btn-warning">Warning Button</option>
+            </field>
+        </fieldset>
+
+        <fieldset addfieldpath="/administrator/components/com_fabrik/models/fields" name="plg-element-change_value_button-alert" label="PLG_FABRIK_ELEMENT_CHANGE_VALUE_BUTTON_ALERT">
+            <field name="cvb_alert_confirm"
+                   label="PLG_FABRIK_ELEMENT_CHANGE_VALUE_BUTTON_ALERT_CONFIRM_LABEL"
+                   type="field"
+            />
+            <field name="cvb_alert_success"
+                   label="PLG_FABRIK_ELEMENT_CHANGE_VALUE_BUTTON_ALERT_SUCCESS_LABEL"
+                   type="field"
+            />
+        </fieldset>
+    </fields>
+</form>
